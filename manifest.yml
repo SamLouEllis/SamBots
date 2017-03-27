@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Sam Bots
+  host: Sam-Bots
+  disk_quota: 1024M
+  services:
+  - Sam Bots-cloudantNoSQLDB
+  - Language Translator-x1
+  - Conversation-tl
+  - Conversation-99
